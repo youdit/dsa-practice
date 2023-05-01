@@ -20,7 +20,7 @@ where $g$ is some function satisfying $0\leq g(i) \leq i$
 
 The function $g(i)$ can be define as the the function replacing all tailing $1s$ with $0s$ in binary representation.
 
-### $g(i) = i ~\&~ (i+1)$
+### $g(i) = i \& (i+1)$
 
 ### So the implementation for finding the sum of the in range $[0,l]$ is as follow
 
@@ -61,7 +61,7 @@ we will start by $i$ and flip the last unset bit, call that operation $h(i)$ and
 
 so since we have to flip the last unset bit it can be done by using the formula
 
-### $ h(i) = i || (i+1)$
+### $h(i) = i || (i+1)$
 
 so the sudo code to updating the index $i$ by adding the value $delta$
 
