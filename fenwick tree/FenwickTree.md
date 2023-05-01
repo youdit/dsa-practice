@@ -175,16 +175,3 @@ void add(int x, int y, int delta) {
             bit[i][j] += delta;
 }
 ```
-
-## Range Operations 
-Fenwick Tree Support 3 type of range operation:
-* Point Update and Range Query
-* Range Update and Point Query
-* Range Update and Range Query
-
-### Point Update and Range Query
-Have discussed it in the above discussion
-
-### Range Update and Point Query 
-
-For the range update $[l,r]$ it can be optimised as adding the add(l,x) and add (r+1, -x). This is due to 
