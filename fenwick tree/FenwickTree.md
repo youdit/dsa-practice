@@ -3,7 +3,7 @@
 ## Introduction
 
 Fenwick tree is a data structure which:
-* calculate the calue of function $f$ int hte givven range $[l, r]$ in $O(long N)$ time.
+* calculate the value of function $f$ int the given range $[l, r]$ in $O(long N)$ time.
 * updates the value of an element of A in $O(log N)$ time.
 * requires $O(N)$ memory for the operation and storage.
 * Easily extensible to multidimensional arrays.
