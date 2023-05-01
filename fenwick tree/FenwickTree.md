@@ -10,7 +10,7 @@ Fenwick tree is a data structure which:
 
 *It is generally used for performing the Sum queries on the array*
 
-The Mathematical represenatation of the fenwick tree for sum 
+The Mathematical represenatation of the fenwick tree for sum.
 
 Let there be an array $A[0...N-1]$ , fenwick three is an arrya $T[0..N-1]$, where each element of the array $T$ is sum of element of of $A$ in range $[g(i), i]$.
 
