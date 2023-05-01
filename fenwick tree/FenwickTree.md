@@ -175,3 +175,8 @@ void add(int x, int y, int delta) {
             bit[i][j] += delta;
 }
 ```
+
+
+Source of the Original [Artical](https://cp-algorithms.com/data_structures/fenwick.html)
+
+tutoral video [link](https://www.youtube.com/watch?v=kPaJfAUwViY&t=1s)
