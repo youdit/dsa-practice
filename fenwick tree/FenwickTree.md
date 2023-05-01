@@ -3,7 +3,7 @@
 ## Introduction
 
 Fenwick tree is a data structure which:
-* calculate the calue of function $f$ int hte givven range [$l$, $r$] in $O(long N)$ time.
+* calculate the calue of function $f$ int hte givven range $[l, r]$ in $O(long N)$ time.
 * updates the value of an element of A in $O(log N)$ time.
 * requires $O(N)$ memory for the operation and storage.
 * Easily extensible to multidimensional arrays.
@@ -12,16 +12,14 @@ Fenwick tree is a data structure which:
 
 The Mathematical represenatation of the fenwick tree for sum 
 
-Let there be an array $A[0...N-1]$ , fenwick three is an arrya $T[0..N-1]$, where each element of the array $T$ is sum of element of of $A$ in range *$[g(i), i]$*
+Let there be an array $A[0...N-1]$ , fenwick three is an arrya $T[0..N-1]$, where each element of the array $T$ is sum of element of of $A$ in range $[g(i), i]$
 
 ## $T_{i} = \sum_{j=g(i)}^i A_{j}$
 
 where $g$ is some function satisfying $0\leq g(i) \leq i$
 
 The function $g(i)$ can be define as the the function replacing all tailing $1s$ with $0s$ in binary representation.
-
 ### $g(i) = i \& (i+1)$
-<br></br>
 
 ### So the implementation for finding the sum of the in range $[0,l]$ is as follow
 
