@@ -12,7 +12,7 @@ Fenwick tree is a data structure which:
 
 The Mathematical represenatation of the fenwick tree for sum 
 
-Let there be an array $A[0...N-1]$ , fenwick three is an arrya $T[0..N-1]$, where each element of the array $T$ is sum of element of of $A$ in range $[g(i), i]$
+Let there be an array $A[0...N-1]$ , fenwick three is an arrya $T[0..N-1]$, where each element of the array $T$ is sum of element of of $A$ in range $[g(i), i]$.
 
 ## $T_{i} = \sum_{j=g(i)}^i A_{j}$
 
