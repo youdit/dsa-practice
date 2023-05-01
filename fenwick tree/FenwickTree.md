@@ -19,6 +19,7 @@ Let there be an array $A[0...N-1]$ , fenwick three is an arrya $T[0..N-1]$, wher
 where $g$ is some function satisfying $0\leq g(i) \leq i$
 
 The function $g(i)$ can be define as the the function replacing all tailing $1s$ with $0s$ in binary representation.
+
 ### $g(i) = i \& (i+1)$
 
 ### So the implementation for finding the sum of the in range $[0,l]$ is as follow
