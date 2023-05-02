@@ -106,3 +106,21 @@ void union_sets(int a, int b) {
 ```
 
 So we have implemented all the operation provided to us by the DSU.
+
+
+## Application Of DSU
+
+### Connected Component in a graph
+
+DSU can be used to find the connected component of the undirected Graph in online mode (i.e. we can find if two component are connected at any point in time).
+
+Consider a graph $G$ consist of the $edges = {1,2,3,4,5,6,7}$ initially all the the edges are independent so the parent of each node is the value of the node itself
+
+so we insert a bidirectional edge from $a -> b$ in the Graph $G$ it will be equivalent to the taking ```union_sets(a, b)``` which will connect the two different connected component into single componenet.
+
+So to find if two edges $x$ and $y$ are in the same connected component at any given time is:
+
+```cpp
+bool isConnected = find_set(x) == find_set(y)
+```
+
